@@ -2027,3 +2027,29 @@ input[type=number] {
   margin-bottom: 10px;
   list-style-type: none;
 }
+
+.changelog-entry {
+  border-left: 5px solid #0b0c0c;
+  padding: 0 0 75px 30px;
+  margin-bottom: -45px;
+}
+
+.changelog-entry div {
+  top: -15px;
+  position: relative;
+}
+
+.changelog-entry div h3:before {
+  content: '';
+  display: block;
+  position: relative;
+  height: 5px;
+  width: 20px;
+  background-color: #0b0c0c;
+  top: 15px;
+  left: -35px;
+}
+
+.changelog-entry div details summary {
+  margin-bottom: 30px;
+}
