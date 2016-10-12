@@ -50,10 +50,44 @@
       summary {
         margin-bottom: 30px;
       }
+
+      div {
+        table td {
+          vertical-align: top;
+        }
+      }
     }
 
   }
 
+}
+
+.proj-phase-tag {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 2px 5px 0;
+  font-size: 16px;
+  line-height: 1.1428571429;
+  font-weight: 700;
+  text-transform: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #fff;
+  background-color: $black;
+  vertical-align: middle;
+}
+
+.alpha {
+  background-color: #d53880;
+}
+
+.disco-alpha {
+  background-color: #B33284;
+}
+
+.discovery {
+  background-color: #912b88;
 }
 
 
