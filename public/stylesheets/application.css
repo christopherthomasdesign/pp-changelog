@@ -2105,6 +2105,10 @@ input[type=number] {
   position: relative;
 }
 
+.changelog-entry div h3 {
+  margin-bottom: 10px;
+}
+
 .changelog-entry div h3:before {
   content: '';
   display: block;
@@ -2116,6 +2120,11 @@ input[type=number] {
   left: -35px;
 }
 
+.changelog-entry div p {
+  max-width: 30em;
+  margin-bottom: 10px;
+}
+
 .changelog-entry div details summary {
   margin-bottom: 30px;
 }
@@ -2124,9 +2133,13 @@ input[type=number] {
   vertical-align: top;
 }
 
+.changelog-entry div details div td:nth-of-type(2) {
+  width: 30em;
+}
+
 .proj-phase-tag {
   display: inline-block;
-  margin: 0 10px;
+  margin: -5px 10px 0;
   padding: 2px 5px 0;
   font-size: 16px;
   line-height: 1.1428571429;
