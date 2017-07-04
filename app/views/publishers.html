@@ -1,0 +1,74 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+
+  <div class="grid-row">
+    <div class="column-two-thirds">
+      <h1 class="heading-xlarge">
+        Data publishers prototypes
+      </h1>
+    </div>
+  </div>
+
+
+  <div class="column-full">
+
+  	<!--changelog entry-->
+  	<div class="changelog-entry">
+  		<div>
+	  		<h3 class="heading-medium"><a href="https://drive.google.com/a/digital.cabinet-office.gov.uk/file/d/0B-OBgmZsXJcIc1QxUVZSR2Y0V1k/view?usp=sharing">PP 2</a>&nbsp; Publish manually or automatically<strong class="proj-phase-tag disco-alpha">ALPHA</strong></h3>
+	  		<p class="font-small text-secondary">June 2017</p>
+	  		<details>
+				  <summary><span class="summary">Main changes</span></summary>
+				  <div>
+				  	<table>
+						  <thead>
+						    <tr>
+						      <th>Change</th>
+						      <th>Why we made it</th>
+						    </tr>
+						  </thead>
+						  <tbody>
+						  	<tr>
+						      <td>Test a new option to explore automatic publishing of data via APIs.</td>
+						      <td>We've found from users that automatic publishing is the ideal scenario, but hard to get set up for certain services/organisations. We think that offering a more hands-on service to get users started will make this easier.</td>
+						    </tr>
+						    <tr>
+						      <td>Group the previously tested ideas into one, with two routes for different responsibilities.</td>
+						      <td>To test if users knew whether they were responsible for one or more services. We also need to test the previous prototypes with more users who publish data for multiple services so we can be sure of our findings.</td>
+						    </tr>
+						  </tbody>
+						</table>
+					</div>	
+			  </div>
+			</details>
+  	</div>
+
+  	<!--changelog entry-->
+  	<div class="changelog-entry">
+  		<div>
+	  		<h3 class="heading-medium"><a href="https://drive.google.com/a/digital.cabinet-office.gov.uk/file/d/0B-OBgmZsXJcIMUxjZU1IekNMVFE/view?usp=sharing">PP 1</a>&nbsp; Publish for services or departments<strong class="proj-phase-tag discovery">ALPHA</strong></h3>
+	  		<p class="font-small text-secondary">June 2017</p>
+	  		<p>Two options to test different levels of responsibility:
+	  			<ul class="list-bullet" style="max-width:34em"><!--change the CSS you lazy bastard-->
+	  				<li>One person responsible for one service, with ability to delegate responsibility for individual metrics</li>
+	  				<li>One person responsible for one department, with ability to delegate responsibility for individual services</li>
+	  			</ul>
+	  		</p>
+  	</div>
+
+  </div>
+ 
+
+
+</main>
+
+{% endblock %}
+
+
